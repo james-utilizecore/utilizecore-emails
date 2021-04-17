@@ -5,3 +5,4 @@ git push https://james-utilizecore:SvQZ2NYnRFMNjs8@github.com/james-utilizecore/
 
 Images path: https://james-utilizecore.github.io/utilizecore-emails/assets/images/image-name.png
 
+Live URL: https://james-utilizecore.github.io/utilizecore-emails
