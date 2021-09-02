@@ -391,6 +391,19 @@ table {
   cursor: pointer !important;
 }
 
+.td_img {
+  padding-top: 0;
+  padding-bottom: 30px;
+  height: 338px;
+}
+
+.td_img img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .mb-0 {
   margin-bottom: 0;
 }
@@ -399,12 +412,25 @@ table {
   margin-left: 10px;
 }
 
+.mb-20 {
+  margin-bottom: 20px;
+}
+
 .px-55 {
   padding-left: 55px;
   padding-right: 55px;
 }
 
+.pt-20 {
+  padding-top: 20px;
+}
+
 .pb-20 {
+  padding-bottom: 20px;
+}
+
+.py-20 {
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 
@@ -531,6 +557,9 @@ table {
     font-size: 16px;
     line-height: 23px;
     padding: 10px 20px;
+  }
+  .td_img {
+    height: 200px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
