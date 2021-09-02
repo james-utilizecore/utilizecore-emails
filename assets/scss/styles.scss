@@ -190,6 +190,7 @@ table {
   max-height: 52px;
   background-color: #1674F5;
   border-radius: 4px;
+  border: 1px solid #1674F5;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -200,15 +201,41 @@ table {
   padding: 12px 30px;
   cursor: pointer;
 }
+.bttn_1_outline {
+  display: inline-block;
+  width: auto;
+  max-height: 52px;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  border: 1px solid #1674F5;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #1674F5;
+  text-decoration: none;
+  padding: 12px 30px;
+  cursor: pointer;
+}
 .bttn_arrow {
   display: inline-block;
   margin-left: 10px;
 }
-
+.vid_thumb {
+  display: block; 
+  margin-top: 0; 
+  margin-bottom: 0; 
+  margin-left: 0;
+  cursor: pointer !important;
+}
 
 
 .mb-0 {
   margin-bottom: 0;
+}
+.ml-10 {
+  margin-left: 10px;
 }
 .px-55 {
   padding-left: 55px;
@@ -221,6 +248,10 @@ table {
   padding-top: 30px;
 }
 .pb-30 {
+  padding-bottom: 30px;
+}
+.py-30 {
+  padding-top: 30px;
   padding-bottom: 30px;
 }
 .px-30 {
@@ -331,7 +362,7 @@ table {
     width: 18px;
   }
 
-  .bttn_1 {
+  .bttn_1, .bttn_1_outline {
     max-height: 40px;
     font-size: 16px;
     line-height: 23px;
