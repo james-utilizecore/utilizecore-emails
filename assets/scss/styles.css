@@ -251,32 +251,6 @@ table {
      object-fit: cover;
 }
 
-.px-55 {
-  padding-left: 55px;
-  padding-right: 55px;
-}
-
-.pt-30 {
-  padding-top: 30px;
-}
-
-.pb-30 {
-  padding-bottom: 30px;
-}
-
-.px-30 {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.pb-10 {
-  padding-bottom: 10px;
-}
-
-.pr-20 {
-  padding-right: 20px;
-}
-
 .h1, .h2, p {
   letter-spacing: 0.2px;
 }
@@ -307,6 +281,10 @@ table {
   margin-bottom: 12px;
 }
 
+.p-i {
+  font-style: italic;
+}
+
 .p-18 {
   font-size: 18px;
   line-height: 30px;
@@ -316,6 +294,12 @@ table {
 .p-16 {
   font-size: 16px;
   line-height: 30px;
+  color: #3D4047;
+}
+
+.p-14 {
+  font-size: 14px;
+  line-height: 28px;
   color: #3D4047;
 }
 
@@ -356,6 +340,62 @@ table {
 
 .va_top {
   vertical-align: top;
+}
+
+.bttn_1 {
+  display: inline-block;
+  width: auto;
+  max-height: 52px;
+  background-color: #1674F5;
+  border-radius: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 12px 30px;
+  cursor: pointer;
+}
+
+.bttn_arrow {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.px-55 {
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.pt-30 {
+  padding-top: 30px;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+.px-30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.pr-20 {
+  padding-right: 20px;
 }
 
 @media only screen and (max-width: 575px) {
@@ -445,6 +485,12 @@ table {
   .start_end_icon_td {
     padding-top: 8px;
     width: 18px;
+  }
+  .bttn_1 {
+    max-height: 40px;
+    font-size: 16px;
+    line-height: 23px;
+    padding: 10px 20px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
